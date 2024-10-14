@@ -1,0 +1,710 @@
+html{ 
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Monstserrat" , sans-serif;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 100px 0;
+    background: #8d6845;
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: #a58554;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+.section_title h2:hover{
+    background-color:#473a21 ;
+}
+header{
+    background: #49311a;
+    border-bottom: 1px solid rgba(211, 178, 145, 0.801);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+
+}
+.nav_links{
+    display: flex;
+}
+.nav_links li a{
+    margin-left: 15px;
+    color: #bdb4b4;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.nav_links li a:hover{
+    background: #9c7849;
+}
+.logo h2 a{
+    color: #c9c3c3;
+    text-transform: uppercase;
+}
+.inner_anasayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #d1d1cb;
+}
+.child_anasayfa{
+    flex-basis: 45%;
+}
+.child_anasayfa h1{
+    font-size: 40px;
+    color: #fff;
+}
+.child_anasayfa h2{
+    font-size: 40px;
+    color: #311e13;
+}
+
+.span_child{
+    font-size: 35px;
+    color: #2e2115;
+  
+}
+.child_anasayfa p{
+    font-size: 20px;
+    color: #c9c3c3;
+    margin-bottom: 12px;
+}
+.btn{
+    background: #c9c3c3;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: #2e2115;
+    border: 1px solid #bdb4b4;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+.btn:hover{
+    background: #49311a;
+    letter-spacing: 2px;
+}
+.inner_me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.child_me img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px; 
+    object-fit: cover;
+}
+
+
+.child_me .about_details {
+    margin-left: 20px;
+}
+
+.about_details p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e4e3e1; 
+}
+
+.section_title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #fff;
+}
+.single_detail:hover{
+    transform: scale(1.03);
+}
+.single_detail{
+    background: #49311a;
+ 
+}
+
+.innersoftware{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content:space-between ;
+    margin:0 auto ;
+    
+}
+.innersoftware_child{
+    flex-basis: 31%;
+    color: #dbdad8;
+    padding: 25PX 20PX;
+    background: #573b20;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in;
+}
+.innersoftware_child:hover{
+    border: 1px solid #bdb4b4;
+}
+.innersoftware_child .icon{
+    font-size: 25px;
+    color: #080808;
+}
+.innersoftware_child h3{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.innersoftware_child p{
+    font-size: 16px;
+}
+
+.child_corses{
+    margin: 10px;
+    margin-bottom: 30px; 
+    color: #d1d1cb;
+    padding: 20px 10px ;
+    border:1px solid transparent;
+    transition: 0.3s ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.child_corses :hover{
+    border: 1px solid #bd9267;
+}
+.child_corses .detail{
+    display: flex;
+    justify-content: space-between;
+}
+.child_corses .detail ul{
+    display: flex;
+    justify-content:space-between ;
+    flex-basis: 50%;
+}
+
+.child_corses .detail ul li{
+    margin-right: 5px;
+    color: #080808;
+}
+.inner_hobi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.child_hobi{
+    flex-basis: 48%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.child_hobi:last-child{
+    margin-right: 0;
+}
+.child_hobi img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 100px;
+    border-radius: 10px;
+    transition: .3s;
+    object-fit: cover;
+}
+.child_hobi img img{
+    border-radius: 100%;
+}
+.child_hobi2{
+    display: flex;
+    flex-basis: 48%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.single_detail{
+
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 4px;
+    transition: .3s;
+}
+.single_detail:hover{
+    transform: scale(1.03);
+}
+.sd_1{
+    background: #49311a;
+    margin-bottom: 20px;
+}
+.sd_2{
+    background: #49311a;
+    margin-bottom: 40px;
+}
+.sd_3{
+    background: #49311a;
+    margin-bottom: 40px;
+}
+.sd_4{
+    background: #49311a;
+    margin-bottom: 40px;
+}
+.sd_5{
+    background: #49311a;
+    margin-bottom: 40px;
+}
+
+
+.inner_contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+.child_contact{
+    flex-basis: 45%;
+}
+.child_contact form{
+    padding: 50px 40px;
+    background: #423122;
+    border-radius: 5px;
+}
+.child_contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #2e2115;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition:  .3s ease-in;
+}
+.child_contact form input,textarea:focus{
+    color: #fff;
+}
+.child_contact form input,textarea:focus{
+   letter-spacing: 1px;
+}
+.child_contact form textarea:focus{
+        letter-spacing: 1px;
+}
+.child_contact form input:last-child{
+    margin-bottom: 0;
+    background: #9c7849;
+    border: 1px solid #664526;
+    transition: .3s;
+}
+.child_contact form input:last-child:hover{
+    background: transparent;
+    color: #fff;
+}
+.inner_courses .child_corses .courses_img img{
+    width: 21rem !important;
+    height: 17rem;
+}
+.inner_courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .child_contact form input, textarea {
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    .inner_anasayfa,
+    .inner_me,
+    .innersoftware,
+    .inner_hobi,
+    .inner_contact {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .child_anasayfa, 
+    .child_me img, 
+    .child_hobi, 
+    .child_contact {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+
+    }
+    .child_me{
+        display: flex;
+        justify-content: center;
+    }
+    .innersoftware_child{
+        margin-top:10px;
+        width: 20rem;
+    }
+    .child_hobi img {
+        padding: 50px;
+    }
+
+    .child_me .about_details {
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 7px;
+    }
+    .nav_links{
+        margin-right: 1rem;
+    }
+    .nav_links li a{
+        margin-left: 3px;
+        color: #bdb4b4;
+        padding: 5px 0;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+    }
+    .logo h2 a{
+        color: #c9c3c3;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .logo{
+        border: 1px solid;
+        border-radius: 5px;
+   
+    }
+    .logo h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px;
+        user-select: none;
+    }
+    .inner_courses{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    
+}
+@media (min-width:480px) and (max-width: 600px) {
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .child_contact form input, textarea {
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    .inner_anasayfa,
+    .inner_me,
+    .innersoftware,
+    .inner_hobi,
+    .inner_contact {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .child_anasayfa, 
+    .child_me img, 
+    .child_hobi, 
+    .child_contact {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .child_hobi img {
+        padding: 50px;
+    }
+
+    .child_me .about_details {
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 9px;
+    }
+    .nav_links{
+        margin-right: 1rem;
+    }
+    .nav_links li a{
+        margin-left: 3px;
+        color: #bdb4b4;
+        padding: 5px 2px;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+    }
+    .logo h2 a{
+        color: #c9c3c3;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .logo{
+        border: 1px solid;
+        border-radius: 5px;
+   
+    }
+    .logo h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px;
+        user-select: none;
+    }
+    .inner_courses{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .innersoftware{
+        width: 400px;
+        
+    }
+    .innersoftware_child{
+        margin-bottom: 15px;
+        width: 400px;
+    }
+}
+@media (min-width: 600px) and (max-width: 720px){
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .child_contact form input, textarea {
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    .inner_anasayfa,
+    .inner_me,
+    .innersoftware,
+    .inner_hobi,
+    .inner_contact {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .child_anasayfa, 
+    .child_me img, 
+    .child_hobi, 
+    .child_contact {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .child_hobi img {
+        padding: 50px;
+    }
+
+    .child_me .about_details {
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 9px;
+    }
+    .nav_links{
+        margin-right: 1rem;
+    }
+    .nav_links li a{
+        margin-left: 3px;
+        color: #bdb4b4;
+        padding: 5px 2px;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+    }
+    .logo h2 a{
+        color: #c9c3c3;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .logo{
+        border: 1px solid;
+        border-radius: 5px;
+   
+    }
+    .logo h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px;
+        user-select: none;
+    }
+    .inner_courses{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .innersoftware{
+        width: 400px;
+        
+    }
+    .innersoftware_child{
+        margin-bottom: 15px;
+        width: 400px;
+    }
+   
+ 
+}
+@media (min-width: 720px) and (max-width:1400px){
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .child_contact form input, textarea {
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    .inner_anasayfa,
+    .inner_me,
+    .innersoftware,
+    .inner_hobi,
+    .inner_contact {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .child_anasayfa, 
+    .child_me img, 
+    .child_hobi, 
+    .child_contact {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .child_hobi img {
+        padding: 50px;
+    }
+
+    .child_me .about_details {
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 17px;
+    }
+    .nav_links{
+        margin-right: 1rem;
+    }
+    .nav_links li a{
+        margin-left: 3px;
+        color: #bdb4b4;
+        padding: 5px 12px;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+    }
+    .logo h2 a{
+        color: #c9c3c3;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .logo{
+        border: 1px solid;
+        border-radius: 5px;
+   
+    }
+    .logo h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px;
+        user-select: none;
+    }
+    .inner_anasayfa{
+        padding: 0 10rem;
+    }
+    .inner_me{
+        padding: 0 10rem;
+    }
+    .innersoftware{
+        padding: 0 5rem;
+    }
+    .inner_hobi{
+        padding: 0 5rem;
+    }
+    .child_hobi2{
+        padding: 0 5rem;
+    }
+    .inner_courses{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
